@@ -38,13 +38,5 @@ public class HighorLow{
         else {
             System.out.println("Too Low!");
         }
-
-
-
-
-
-
-
-
     }
 }
