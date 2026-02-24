@@ -24,7 +24,7 @@ public class FuelCosts{
             else
             {
                 trash = in.nextLine();
-                System.out.println("\nYou have entered:");
+                System.out.println("\nYou have entered:" + trash);
                 System.out.println("Please enter a correct value.");
             }
         }
@@ -41,7 +41,7 @@ public class FuelCosts{
             else
             {
                 trash = in.nextLine();
-                System.out.println("\nYou have entered:");
+                System.out.println("\nYou have entered:" + trash);
                 System.out.println("Please enter a correct value.");
             }
         }
@@ -58,7 +58,7 @@ public class FuelCosts{
             else
             {
                 trash = in.nextLine();
-                System.out.println("\nYou have entered:");
+                System.out.println("\nYou have entered:" + trash);
                 System.out.println("Please enter a correct value.");
             }
         }
