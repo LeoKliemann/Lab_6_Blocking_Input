@@ -10,7 +10,6 @@ public class RectangleInfo{
         double perimeter;
         double diagonal;
         String trash = "";
-        boolean done = false;
 
         do
         {
