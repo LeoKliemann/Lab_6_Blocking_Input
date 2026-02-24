@@ -1,10 +1,13 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class HighorLow{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        Random randomNumber = new Random();
+
         int guess = 0;
-        int randomNumber = (int) (Math.random() * 10) + 1;
+        int generator = randomNumber.nextInt(10) +1;
         String trash = "";
         boolean done = false;
 
@@ -26,10 +29,10 @@ public class HighorLow{
             }
         }while(!done);
 
-        if(guess == randomNumber) {
+        if(guess == generator) {
             System.out.println("You got it!");
         }
-        else if (guess > randomNumber){
+        else if (guess > generator){
             System.out.println("Too high!");
         }
         else {
